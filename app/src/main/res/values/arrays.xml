@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_weather_units_options">
+        <item>@string/pref_weather_units_label_celsius</item>
+        <item>@string/pref_weather_units_label_imperial</item>
+    </string-array>
+
+    <string-array name="pref_units_values">
+        <item>@string/pref_weather_units_celsius</item>
+        <item>@string/pref_weather_units_fahrenheit</item>
+    </string-array>
+
+    <string-array name="pref_wind_units_options">
+        <item>@string/pref_wind_units_label_kmh</item>
+        <item>@string/pref_wind_units_label_mph</item>
+    </string-array>
+
+    <string-array name="pref_wind_units_values">
+        <item>@string/pref_wind_units_kmh</item>
+        <item>@string/pref_wind_units_mph</item>
+    </string-array>
+
+    <string-array name="pref_notification_type_options">
+        <item>@string/pref_notification_type_label_always</item>
+        <item>@string/pref_notification_type_label_daily</item>
+        <item>@string/pref_notification_type_label_smart</item>
+    </string-array>
+
+    <string-array name="pref_notification_type_values">
+        <item>@string/pref_notification_type_always</item>
+        <item>@string/pref_notification_type_daily</item>
+        <item>@string/pref_notification_type_smart</item>
+    </string-array>
+
+
+    <string-array name="pref_data_update_frequency_options">
+        <item>@string/pref_data_sync_3_hour_label</item>
+        <item>@string/pref_data_sync_6_hour_label</item>
+        <item>@string/pref_data_sync_12_hour_label</item>
+        <item>@string/pref_data_sync_manually_label</item>
+    </string-array>
+
+    <string-array name="pref_data_update_frequency_values">
+        <item>@string/pref_data_sync_3_hour</item>
+        <item>@string/pref_data_sync_6</item>
+        <item>@string/pref_data_sync_12</item>
+        <item>@string/pref_data_sync_manually</item>
+
+    </string-array>
+</resources>

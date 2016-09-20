@@ -1,0 +1,63 @@
+<android.support.v4.widget.SwipeRefreshLayout
+
+    android:id="@+id/swipe_refresh_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tint="@color/background_filter"
+            android:background="@drawable/default_background"
+            android:contentDescription="@string/content_description_background_image"
+            />
+
+        <ListView
+            android:id="@+id/fragment_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/empty_textview"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="bottom|right"
+            android:id="@+id/image_owner_textview"
+            android:layout_width="wrap_content"
+            android:maxWidth="200dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:fontFamily="@string/light"
+            android:textSize="10sp"
+            android:text="Photo By Dilyar from Alaomire"/>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+
+

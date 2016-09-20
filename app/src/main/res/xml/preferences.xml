@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:custom="http://schemas.android.com/apk/res-auto"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+
+
+    <PreferenceCategory
+        android:key="@string/pref_notification_category_key"
+        android:title="@string/pref_notification_category_label">
+
+        <CheckBoxPreference
+            android:defaultValue="@string/pref_enable_notifications_default"
+            android:key="@string/pref_enable_notifications_key"
+            android:summaryOff="@string/pref_enable_notifications_false"
+            android:summaryOn="@string/pref_enable_notifications_true"
+            android:title="@string/pref_enable_notifications_label"/>
+
+        <ListPreference
+            android:dependency="@string/pref_enable_notifications_key"
+            android:key="@string/pref_notification_city_key"
+            android:title="@string/pref_notification_city_title"/>
+
+        <ListPreference
+            android:dependency="@string/pref_enable_notifications_key"
+            android:defaultValue="@string/pref_notification_type_default"
+            android:entries="@array/pref_notification_type_options"
+            android:entryValues="@array/pref_notification_type_values"
+            android:key="@string/pref_notification_type_key"
+            android:title="@string/pref_notification_type_title"/>
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:key="@string/pref_unit_category_key"
+        android:title="@string/pref_unit_category_label">
+
+        <ListPreference
+            android:defaultValue="@string/pref_weather_units_fahrenheit"
+            android:entries="@array/pref_weather_units_options"
+            android:entryValues="@array/pref_units_values"
+            android:key="@string/pref_weather_units_key"
+            android:title="@string/pref_units_label"/>
+
+        <!--<ListPreference-->
+            <!--android:defaultValue="@string/pref_wind_units_kmh"-->
+            <!--android:entries="@array/pref_wind_units_options"-->
+            <!--android:entryValues="@array/pref_wind_units_values"-->
+            <!--android:key="@string/pref_wind_units_key"-->
+            <!--android:title="@string/pref_wind_units_label"/>-->
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_data_category_key"
+        android:title="@string/pref_network_category_label">
+
+        <ListPreference
+            android:defaultValue="@string/pref_data_sync_frequency_default"
+            android:entries="@array/pref_data_update_frequency_options"
+            android:entryValues="@array/pref_data_update_frequency_values"
+            android:key="@string/pref_data_sync_frequency_key"
+            android:title="@string/pref_data_sync_frequency_label"/>
+
+        <CheckBoxPreference
+            android:defaultValue="@string/pref_enable_sync_all_cities_default"
+            android:key="@string/pref_enable_sync_all_key"
+            android:summaryOff="@string/pref_enable_sync_all_false_summary"
+            android:summaryOn="@string/pref_enable_sync_all_true_summary"
+            android:title="@string/pref_enable_sync_all_label"/>
+
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="@string/pref_enable_images_default"-->
+            <!--android:key="@string/pref_enable_images_key"-->
+            <!--android:summaryOff="@string/pref_enable_images_false_summary"-->
+            <!--android:summaryOn="@string/pref_enable_images_true_summary"-->
+            <!--android:title="@string/pref_enable_images_label"/>-->
+
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:panelFullBackground">@color/sunshine_blue</item>-->
+    </style>
+
+    <style name="ActionBarTheme" parent="@style/AppTheme">
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+
+
+    </style>
+</resources>
+
+
