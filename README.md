@@ -9,10 +9,10 @@ A beautiful Android forecast app. It is now available on Google Play, reaching m
 * Support multiple locations by swiping the screen
 
 ## Screenshots
-<img src="https://github.com/dilyar85/Android-Forecast-App/blob/master/screenshots/nyc_day.png" alt="Screenshot" width="200" hspace="5">
-<img src="https://github.com/dilyar85/Android-Forecast-App/blob/master/screenshots/sf_day.png" alt="Screenshot" width="200" hspace="5">
-<img src="https://github.com/dilyar85/Android-Forecast-App/blob/master/screenshots/chicago_day.png" alt="Screenshot" width="200" hspace="5">
-<img src="https://github.com/dilyar85/Android-Forecast-App/blob/master/screenshots/detail.png" alt="Screenshot" width="200" hspace="5">
+<img src="https://github.com/dilyar85/Android-Forecast-App/blob/master/screenshots/nyc_day.png" alt="Screenshot" width="300" hspace="5">
+<img src="https://github.com/dilyar85/Android-Forecast-App/blob/master/screenshots/sf_day.png" alt="Screenshot" width="300" hspace="5">
+<img src="https://github.com/dilyar85/Android-Forecast-App/blob/master/screenshots/chicago_day.png" alt="Screenshot" width="300" hspace="5">
+<img src="https://github.com/dilyar85/Android-Forecast-App/blob/master/screenshots/detail.png" alt="Screenshot" width="300" hspace="5">
 
 ## Join me!
 If you have any ideas to make this app better, please feel free to fork this repository and contribute back using pull requests to the master branch. I would be more than happy if you star it as well!
